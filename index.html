@@ -1,0 +1,575 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        </head>
+
+    <body>
+        <!-- First Adding nav bar -->
+        <nav id="home" class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute z-index-nav w-100 my-4">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/logo-white.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3 font-style">
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#aboutUs">About</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#ourTeam">Team</a>
+                  </li>
+                  <li class="nav-item px-2" >
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <div class="d-flex w-6 justify-content-between social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        <header>
+            <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active item">
+                      <div class="home-content">
+                        <h2>We build</h2>
+                        <h2>great brands.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item item2">
+                    <div class="home-content">
+                        <h2>Advanced in</h2>
+                        <h2>digital works.</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item item1">
+                    <div class="home-content">
+                        <h2>Focused</h2>
+                        <h2>on strategy.</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="two-buttons position-absolute">
+                    <div class="buttons-div d-flex flex-column justify-content-center align-items-center position-relative">
+                        <button class="carousel-control-prev button-size button-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next button-size button-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                    </div>
+                </div>
+
+                <!-- Adding mini gear icon at the side -->
+                <div class="settings-div position-fixed">
+                    <a href="#"><i class="fa-solid fa-gears"></i></a>
+                </div>
+              </div>
+        </header>
+
+        <!-- Making a div for the title -->
+        <div id="aboutUs" class="title text-center w-100 position-relative mt-5">
+            <h2 class="d-inline letter-size text-center enlarge">A</h2>
+            <div class="title-word d-inline position-absolute position-adjust mb-2">
+                <h3 class="d-inline word-size">About US</h3>
+            </div>
+            <div class="underline"></div>
+        </div>
+        <div class="text-p w-50 text-center mx-auto mt-4 mb-5">
+            <p>Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+        </div>
+
+        <!-- making a container for about section -->
+
+        <section class="container pt-3 font-adjust-h2 d-flex justify-content-between mb-5">
+            <div class="row">
+                <div class="col-xl-6 col-sm-12">
+                    <p class="mb-3 p-adjust">Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.</p>
+                    <p class="mb-3 p-adjust">Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+                    <p class="mb-3 p-adjust">Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.</p>
+                </div>
+                <div class="col-xl-5 col-sm-12 ms-auto">
+                    <div class="d-flex justify-content-between w-80">
+                        <h2>Branding</h2>
+                        <h2>85%</h2>
+                    </div>
+                      <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="d-flex justify-content-between w-95">
+                        <h2>Web Design</h2>
+                        <h2>95%</h2>
+                    </div>
+                      <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="branding d-flex justify-content-between w-85">
+                        <h2>Graphic Design</h2>
+                        <h2>85%</h2>
+                    </div>
+                      <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="branding d-flex justify-content-between w-70">
+                        <h2>Development</h2>
+                        <h2>70%</h2>
+                    </div>
+                      <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Making a div for the title -->
+        <div id="ourTeam" class="title text-center w-100 position-relative mt-5">
+            <h2 class="d-inline letter-size text-center enlarge">O</h2>
+            <div class="title-word d-inline position-absolute position-adjust mb-2">
+                <h3 class="d-inline word-size">Our Team</h3>
+            </div>
+            <div class="underline"></div>
+        </div>
+        <div class="text-p w-50 text-center mx-auto mt-4 mb-5">
+            <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+        </div>
+
+
+        <!-- Making a section for cards -->
+        <section class="container d-flex justify-content-between mb-5">
+            <div class="row row-cols-1 row-cols-xl-4 g-4">
+                <div class="col">
+                  <div class="card text-center border-0">
+                    <div class="member-img w-100 position-relative">
+                        <img src="images/member-1.jpg" class="card-img-top w-100" alt="...">
+                        <div class="image-effect position-absolute d-flex justify-content-center align-items-center">
+                            <div class="social-media-img w-50 text-white d-flex justify-content-between align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Michael Broad</h5>
+                      <p class="card-text">Web Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center border-0">
+                    <div class="member-img w-100 position-relative">
+                        <img src="images/member-2.jpg" class="card-img-top w-100" alt="...">
+                        <div class="image-effect position-absolute d-flex justify-content-center align-items-center">
+                            <div class="social-media-img w-50 text-white d-flex justify-content-between align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Jeannette Crow</h5>
+                      <p class="card-text">CEO Founder</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center border-0">
+                    <div class="member-img w-100 position-relative">
+                        <img src="images/member-3.jpg" class="card-img-top w-100" alt="...">
+                        <div class="image-effect position-absolute d-flex justify-content-center align-items-center">
+                            <div class="social-media-img w-50 text-white d-flex justify-content-between align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Martin Lawrence</h5>
+                      <p class="card-text">App Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center border-0">
+                    <div class="member-img w-100 position-relative">
+                        <img src="images/member-4.jpg" class="card-img-top w-100" alt="...">
+                        <div class="image-effect position-absolute d-flex justify-content-center align-items-center">
+                            <div class="social-media-img w-50 text-white d-flex justify-content-between align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Isabella Dowson</h5>
+                      <p class="card-text">Creative Director</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class="w-75 mx-auto py-5 d-flex justify-content-between">
+            <h2 class="fs-1">Do You Have Any Ideas?</h2>
+            <a href="#contactUs"><button class="button-adjust">Contact Us</button></a>
+        </section>
+
+        <!-- Making a div for the title -->
+        <div id="services" class="container-fluid bg-white-light pt-4 pb-3">
+            <div class="title text-center w-100 position-relative mt-5">
+                <h2 class="d-inline letter-size text-center enlarge">S</h2>
+                <div class="title-word d-inline position-absolute position-adjust mb-2">
+                    <h3 class="d-inline word-size">Services</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="text-p w-50 text-center mx-auto mt-4 mb-5">
+                <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+            </div>
+        </div>
+
+        <!-- Making section for services -->
+        <section class="container-fluid bg-white-light">
+            <div class="row row-cols-1 row-cols-lg-3 g-4 gy-5 container mx-auto pt-3 pb-5">
+                <div class="col">
+                  <div class="card d-flex justify-content-between flex-row border-0 bg-transparent hover-header">
+                      <!-- Inside 2 divs one for icon and other for text -->
+                      <div class="icon-div w-25 icon-font ms-3">
+                        <i class="fa-solid fa-laptop-code"></i>
+                      </div>
+
+                      <div class="description-div w-85">
+                        <h5 class="card-title-adjust">Responsive Layout</h5>
+                        <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Modern Design</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-font-awesome"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Font Awesome Icons</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-address-card"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Ajax Portfolio</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Color Options</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Audio Support</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Well Documented</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Background Videos</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card hover-header d-flex justify-content-between flex-row border-0 bg-transparent">
+                        <!-- Inside 2 divs one for icon and other for text -->
+                        <div class="icon-div w-25 icon-font ms-3">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+  
+                        <div class="description-div w-85">
+                          <h5 class="card-title-adjust">Intro Slider</h5>
+                          <p class="card-text-adjust">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        
+
+        <!-- Making a div for the title -->
+        <div class="title text-center w-100 position-relative mt-5">
+            <h2 class="d-inline letter-size text-center enlarge">C</h2>
+            <div class="title-word d-inline position-absolute position-adjust mb-2">
+                <h3 class="d-inline word-size">Client Reviews</h3>
+            </div>
+            <div class="underline"></div>
+        </div>
+        <div class="text-p w-50 text-center mx-auto mt-4 mb-5">
+            <p>Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+        </div>
+
+        <section class="container-fluid h-50 mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators w-100 mx-auto">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active photo-size client-pp" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="photo-size client-pp1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="photo-size client-pp2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner translateVertical text-center">
+                  <div class="carousel-item active">
+                    <h3 class="h3-adjust">Martin Jack</h3>
+                    <h4 class="h4-adjust">From Hooli</h4>
+                    <p class="p-edit"> <i class="fa-solid fa-quote-left fs-3"></i>Aenean sit amet est orci. Aenean at nisi eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus.<i class="fa-solid fa-quote-right fs-3"></i> </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="h3-adjust">Martin Jack</h3>
+                    <h4 class="h4-adjust">From Hooli</h4>
+                    <p class="p-edit"> <i class="fa-solid fa-quote-left fs-3"></i>Aenean sit amet est orci. Aenean at nisi eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus.<i class="fa-solid fa-quote-right fs-3"></i> </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="h3-adjust">Martin Jack</h3>
+                    <h4 class="h4-adjust">From Hooli</h4>
+                    <p class="p-edit"> <i class="fa-solid fa-quote-left fs-3"></i>Aenean sit amet est orci. Aenean at nisi eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus.<i class="fa-solid fa-quote-right fs-3"></i> </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
+        <!-- Making a div for the title -->
+        <div id="contactUs" class="container-fluid bg-white-light pt-4 pb-3">
+            <div class="title text-center w-100 position-relative mt-5">
+                <h2 class="d-inline letter-size text-center enlarge">G</h2>
+                <div class="title-word d-inline position-absolute position-adjust mb-2">
+                    <h3 class="d-inline word-size">Get In Touch</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="text-p w-50 text-center mx-auto mt-4 mb-5">
+                <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+            </div>
+        </div>
+
+        <!-- Making section for form -->
+        <section  class="container-fluid bg-white-light pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <h2>Get answers and advices from professional consultants.</h2>
+                        <br>
+                        <div class="container-fluid d-flex flex-column gap-4">
+                            <div class="section d-flex justify-content-between hover-adjust">
+                                <div class="icon-contact w-25"><i class="fa-solid fa-map icon-adjust"></i></div>
+                                <div class="description w-75">
+                                    <h3 class="text-bold">Address</h3>
+                                    <p class="p-adjust">1650 Lombard Street, San Francisco, CA 94123</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid w-100 underline-1"></div>
+                            <div class="section d-flex justify-content-between hover-adjust">
+                                <div class="icon-contact w-25"><i class="fa-solid fa-mobile-screen icon-adjust"></i></div>
+                                <div class="description w-75">
+                                    <h3 class="text-bold">Phone</h3>
+                                    <p class="p-adjust">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid w-100 underline-1"></div>
+                            <div class="section d-flex justify-content-between hover-adjust">
+                                <div class="icon-contact w-25"><i class="fa-solid fa-envelope icon-adjust"></i></div>
+                                <div class="description w-75">
+                                    <h3 class="text-bold">Say Hello</h3>
+                                    <p class="p-adjust a-adjust"><a href="#">[email protected]</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 offset-lg-1">
+                        <div class="form-div w-100">
+                            <form>
+                              <div class="mb-3">
+                                <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+                              </div>
+                              <div class="mb-3">
+                                <input type="email" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Your Email">
+                              </div>
+                              <div class="mb-3">
+                                <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject">
+                              </div>
+                              <div class="mb-3">
+                                <textarea class="rounded-0 form-control" placeholder="Message for me..." style="width:100%; height:150px; border-radius: 5px; padding: 15px 10px;"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-color btn-primary px-3 py-3 rounded-1 text-size mt-2"><i class="fa-solid fa-paper-plane m-lg-1"></i> Send Message</button>
+                            </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- making section before last -->
+        <!-- No background image so I will use background color instead -->
+        <section class=" container-fluid py-5 b-last">
+            <div class="logo-div w-100 mt-3 text-center mb-5">
+                <img src="images/icon.png" alt="" class="logo-sizing text-center">
+            </div>
+
+            <div class="container hovers">
+                <div class="row">
+                    <div class="col-lg-2 col-md-5">
+                        <h2 class="text-white pb-2 fs-4">Contact Info</h2>
+                        <p class="mb-1 text-blast">1650 Lombard Street, San Francisco, CA 94123</p>
+                        <p class="mb1 text-blast">+1 (415) 876-3250</p>
+                        <a href="#" class="text-decoration-none text-blast a-hover">[email protected]</a>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-5 offset-md-2 d-flex flex-column">
+                        <h2 class="text-white pb-2 fs-4">Useful Links</h2>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Support</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Privacy Policy</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Terms And Conditions</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Affiliate Program</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Careers</a>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-5 d-flex flex-column">
+                        <h2 class="text-white pb-2 fs-4">Recent Posts</h2>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Sunset in Venice</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Aerial View of Village</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Lighted Concrete City</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">The Little Ghost</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover">Royal Oats ft. Waldo</a>
+                    </div>
+                    <div class="col-lg-3  offset-lg-1 col-md-5 offset-md-2 line-height">
+                        <h2 class="text-white pb-2 fs-4">Popular Tags</h2>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">HTML5</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">CSS</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">J-Query</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">UI / UX</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">Graphic</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">Design</a>
+                        <a href="#" class="text-decoration-none text-blast a-hover px-2 py-1 border border-1 border-white rounded-3">Development</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="container-fluid text-white footer-color">
+            <div class="container py-4 d-flex justify-content-between footer-color">
+                <div class="social-footer w-15 d-flex justify-content-between">
+                    <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p class="text-blast">Copyright © 2020 <a href="#" class="text-decoration-none text-white">Angora</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
+
+
+
